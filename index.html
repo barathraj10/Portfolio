@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barath Raj | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  <!-- GFont -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+     <script src="https://kit.fontawesome.com/41a19478af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="container" id="first">
+
+            <nav class="navbar">
+                <div class="logo">Barath Raj</div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    ☰
+                </div>
+            </nav>
+        </div>
+
+
+        <!-- Profile -->
+        <section id="profile">
+            <div id="profile-img">
+                <img src="/Assets/Profile.jpg" alt="Profile Image">
+            </div>
+            <div id="profile-spec">
+                <div id="spec-abt">
+                    <p>Hello I'm</p>
+                    <h1>Barath Raj</h1>
+                    <p>Software Developer</p>
+                </div>
+                <div id="spec-docs">
+                    <span><a href="/Assets/Barath Raj K - Resume.pdf" download id="download-btn">Download Resume</a></span>
+                    <a href="#contact" id="contact-btn">Contact Me</a>
+                </div>
+            </div>
+            <a href="#about" id="arrow-btn"><i class="fa-solid fa-angles-down"></i></a>
+        </section>
+
+        <!-- About -->
+         <section id="about">
+            <p id="abt-header">About Me, in a Nutshell</p>
+            <!-- Navigation -->
+            <a href="#projects" id="arrow-btn"><i class="fa-solid fa-angles-down"></i></a> 
+            <div class="info container">
+                <div class="info-img">
+                    <img src="/Assets/IMG_2648.jpg">
+                </div>
+                <div class="info-spec">
+                    
+
+                    <p>Driven by curiosity and a passion for innovation, I approach software development as a craft where creativity meets precision. With a strong foundation in programming and a commitment to continuous learning, I strive to build solutions that are both efficient and impactful. I value clean code, thoughtful design, and collaborative problem-solving, believing that technology should empower people and drive meaningful change. Every project is an opportunity to turn ideas into reliable, user-focused applications that create lasting value.</p>
+                </div>
+            </div>
+            <a href="#first" id="arrow-up"><i class="fa-solid fa-angles-up"></i></a> 
+        </section>
+
+        <!-- Projects -->
+         <section class="projects" id="projects">
+            <div id="projects-header">
+                <p id="sub">From Ideas to Execution</p>
+                <p id="title">Explore My Projects</p>
+            </div>
+            <div class="project-grid">
+                <div class="project-cards">
+                    <img src="/Assets/WeatherApp.jpg">
+                    <p id="title">Real Time Weather Application</p>
+                    <div id="links">
+                        <a href="https://barathraj10.github.io/Weather-App-using-React/" target="_blank">Visit</a>
+                        <a href="https://github.com/barathraj10/Weather-App-using-React" target="_blank">Github</a>
+                    </div>
+                </div>
+                <div class="project-cards">
+                    <img src="/Assets/BroFit.png">
+                    <p id="title">Bro-Fit Gym Website Layout</p>
+                    <div id="links">
+                        <a href="https://barathraj10.github.io/Bro-Fit/" target="_blank">Visit</a>
+                        <a href="https://github.com/barathraj10/Bro-Fit" target="_blank">Github</a>
+                    </div>
+                </div>
+                <div class="project-cards">
+                    <img src="/Assets/shopping-cart.jpg">
+                    <p id="title">Shopping Cart</p>
+                    <div id="links">
+                        <a href="https://barathraj10.github.io/shopping-cart-using-react-hooks/" target="_blank">Visit</a>
+                        <a href="https://github.com/barathraj10/shopping-cart-using-react-hooks" target="_blank">Github</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#contact" id="arrow-btn"><i class="fa-solid fa-angles-down"></i></a> 
+            <a href="#about" id="arrow-up"><i class="fa-solid fa-angles-up"></i></a> 
+        </section>
+        
+        <!--Contact  -->
+        <section class="contact" id="contact">
+            <div id="contact-intro">
+                <p id="contact-sub">Reach Out</p>
+                <p id="contact-header">Contact Me</p>
+            </div>
+                <a href="#projects" id="arrow-up"><i class="fa-solid fa-angles-up"></i></a> 
+            <!-- <h3>Your Next Developer Awaits</h3> -->
+            <div id="contacts">
+                <a href="mailto:barathraj.offl@gmail.com" type="mail"><i class="fa-solid fa-envelope"></i>barathraj.offl@gmail.com</a>
+                <a href="tel:+919655839504"><i class="fa-solid fa-mobile"></i>+91 9655839504</a>
+            </div>
+
+            <div class="socials">
+
+                <p>Also Connect Here</p>
+                <div id="socials">
+                    <a href="https://github.com/barathraj10"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/barath-raj-k-a2569a297/"><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <footer>
+                <p>&copy; 2025 Barath Raj. All rights reserved.</p>
+            </footer>
+        </section>
+         
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
