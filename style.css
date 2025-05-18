@@ -61,8 +61,11 @@ body {
 }
 
 @media (max-width: 991px) {
+    .navbar{
+        padding:0 1rem;
+    }
   .logo, .hamburger {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .nav-links {
@@ -399,7 +402,7 @@ body {
     position:relative;
   }
   .project-cards img{
-    width:70%;
+    width:50%;
     height: auto;
   }
 }
