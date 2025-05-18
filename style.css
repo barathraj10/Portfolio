@@ -399,7 +399,6 @@ body {
   .project-cards {
     width: 100%;
     max-width: 90vw;
-    position:relative;
   }
   .project-cards img{
     width:90%;
