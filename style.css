@@ -192,11 +192,12 @@ body {
     align-items: center;
     justify-content: center;
     padding-bottom: 2rem;
+    gap:3rem;
   }
 
   #profile-img img {
-    height: 25rem;
-    width: 25rem;
+    height: auto;
+    width: 60%;
     border-radius: 10rem;
   }
 
@@ -273,8 +274,8 @@ body {
 
 #arrow-up {
   position: absolute;
-  top: 5rem;
-  left: 5rem;
+  top: 3rem;
+  left: 3rem;
   color: blue;
   font-size: 2rem;
 }
