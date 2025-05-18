@@ -397,6 +397,10 @@ body {
     width: 100%;
     max-width: 90vw;
   }
+  .project-cards img{
+    width:70%;
+    height: auto;
+  }
 }
 
 /* Contact */
