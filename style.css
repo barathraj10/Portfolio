@@ -403,7 +403,7 @@ body {
 
   .project-cards {
     width: 70%;
-    max-width: 200vw;
+    max-width:max-content;
     position:relative;
   }
   .project-cards img{
@@ -421,7 +421,7 @@ body {
 
 
 /* Contact */
-.contact, .skills {
+.contact {
   min-height: 100vh;
   gap: 3rem;
   display: flex;
