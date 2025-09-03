@@ -41,7 +41,7 @@ const Navbar = () => {
         <ul className="hidden md:flex gap-8">
           {NavLinks.map((link) => (
             <li key={link.id}>
-              <a href={link.id} className="text-xl text-white">
+              <a href={link.id} className="text-lg text-white">
                 {link.title}
               </a>
             </li>

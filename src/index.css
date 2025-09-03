@@ -34,7 +34,7 @@
   }
 
   h2 {
-    @apply text-2xl font-bold text-white sm:text-3xl;
+    @apply text-lg font-bold text-white md:text-xl lg:text-2xl;
   }
 }
 
@@ -90,10 +90,10 @@
     @apply w-full p-5 min-h-screen flex flex-col gap-5 justify-center items-center;
   }
   .skillCard{
-    @apply p-3 rounded-xl sm:h-50 w-50 flex flex-col gap-5 justify-start items-center;
+    @apply p-3 rounded-xl  w-50 flex flex-col  gap-5 justify-start items-center;
   }
   .cards{
-    @apply flex flex-row justify-center items-center gap-4 flex-wrap rounded-md;
+    @apply flex flex-row justify-center items-center gap-8 flex-wrap rounded-md;
   }
   .card{
     @apply  gap-1 w-80 h-full flex flex-col p-4 rounded-md bg-gradient-to-b from-[#014763] to-[#09011d];
@@ -118,4 +118,10 @@
   .i-hover{
     @apply hover:text-amber-300 hover:translate-y-[-10px] transition-all duration-150;
   }
+  .labels {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: inset 1px -1px 0px rgba(0, 0, 0, 0.2),
+            inset -2px -2px 3px rgba(255, 255, 255, 0.3),
+            1px 1px 3px rgba(0, 0, 0, 0.4);        
+    }
 }

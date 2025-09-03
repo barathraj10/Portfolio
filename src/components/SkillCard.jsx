@@ -6,7 +6,7 @@ const SkillCard = ({title,stacks}) => {
         <h2>{title}</h2>
         <div className="tags flex flex-wrap gap-2">
             {stacks.map((stack,index)=>(
-                <span key={index} className='text-white text-lg font-bold bg-[#123d75]  px-3 py-2 rounded-md'>{stack}</span>
+                <span key={index} className='text-white text-lg font-semibold bg-[#123d75]  px-3 py-2 rounded-md'>{stack}</span>
             ))}
         </div>
     </div>
