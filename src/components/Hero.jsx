@@ -1,7 +1,7 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import React, { useRef } from 'react'
-import resume from '../assets/Barath Raj K - Resume.pdf'
+import resume from '../assets/Barath Raj K - Software Developer.pdf'
 
 const Hero = () => {
     const content = useRef()

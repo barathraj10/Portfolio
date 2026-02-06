@@ -5,7 +5,7 @@ const Card = ({title,image,tags,live,github,completed}) => {
   return (
     <div  className="card  shadow-lg shadow-[#31545a] h-90  border-1 border-cyan-500">
       
-      <div className="h-[200px] w-full overflow-hidden">
+      <div className="max-h-50 w-full overflow-hidden">
         {image?(
           <img
           src={image}
@@ -27,7 +27,7 @@ const Card = ({title,image,tags,live,github,completed}) => {
           {tags.map((tag, index) => (
             <span
               key={index}
-              className="bg-[#b5c7f8] text-blue-900 px-3 py-1 text-md font-semibold rounded-md"
+              className="bg-[#b5c7f8] text-blue-900 px-3 py-1 text-sm font-semibold rounded-md"
             >
               {tag}
             </span>
